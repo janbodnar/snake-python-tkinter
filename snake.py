@@ -97,6 +97,7 @@ class Board(Canvas):
         
         print(self.bbox(head))
         
+        
         x1, y1, x2, y2 = self.bbox(head)
         overlap = self.find_overlapping(x1, y1, x2, y2)
             
