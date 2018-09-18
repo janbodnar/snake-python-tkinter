@@ -95,7 +95,7 @@ class Board(Canvas):
         apple = self.find_withtag("apple")
         head = self.find_withtag("head")
         
-        print(self.bbox(head))
+        # print(self.bbox(head))
         
         
         x1, y1, x2, y2 = self.bbox(head)
