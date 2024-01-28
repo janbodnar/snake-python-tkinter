@@ -1,22 +1,9 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-
-"""
-ZetCode Tkinter tutorial 
-
-This is a simple Snake game
-clone.
-
-Author: Jan Bodnar
-Website: zetcode.com 
-Last edited: October 2018
-"""
+#!/usr/bin/python
 
 import sys
 import random
 from PIL import Image, ImageTk
 from tkinter import Tk, Frame, Canvas, ALL, NW
-
 
 class Cons:
         
